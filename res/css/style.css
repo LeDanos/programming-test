@@ -1,0 +1,64 @@
+body{
+    background: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 50px;
+    user-select: none;
+}#timer{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    width: 70%;
+    height: 5%;
+    background-color: rgb(88, 88, 88);
+    border: 5px solid rgb(175, 175, 175);
+}#timerBar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(185, 27, 27),rgb(131, 19, 19));
+    transition: 0.95s;
+}#start{
+    position: absolute;
+    top: 41%;
+    left: 45%;
+    width: 10%;
+    height: 8%;
+    background-color: rgb(37, 37, 37);
+    border: 3px solid rgb(65, 65, 65);
+    display: block;
+}#end{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 90%;
+    display: none;
+}#game{
+    display: none;
+}#score{
+    position: absolute;
+    top: 6%;
+    left: 1%;
+    font-size: 35px;
+}#question{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+}#input{
+    position: absolute;
+    top: 60%;
+    height: 5%;
+    left: 30%;
+    width: 40%;
+}#confirm{
+    position: absolute;
+    top: 70%;
+    height: 8%;
+    left: 35%;
+    width: 30%;
+    background-color: rgb(37, 37, 37);
+    border: 3px solid rgb(65, 65, 65);
+}
